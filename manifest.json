@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Circle of Energy",
+  "description": "Keep up to date with Circle of Energy from within Chrome.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://circleofenergy.com/"
+  ],
+  "browser_action": {
+    "default_icon": "assets/images/coe.jpg",
+    "default_popup": "index.html"
+  }
+}
